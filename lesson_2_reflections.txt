@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+The new directory called .git is created which contains metadata about the versions.
+it is hidden as it has a period in beginning of the filename.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It kind of operates like a buffer, a single unit which has files to be committed at once.
