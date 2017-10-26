@@ -15,3 +15,7 @@ we can pretty well track the status of commits on our local machine and the repo
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I would have to mail my code to my friend in order for him to edit it and wait till i get his version.
 Well anyways its difficult for both of us to work on the same project simultaneously.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+whenever i want my updates to be checked by others ill create a branch and push it. ill then create a pull request in 
+order for my codes to be checked by others.
