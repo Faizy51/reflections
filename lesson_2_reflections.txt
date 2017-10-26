@@ -4,3 +4,22 @@ it is hidden as it has a period in beginning of the filename.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It kind of operates like a buffer, a single unit which has files to be committed at once.
+
+How can you use the staging area to make sure you have one commit per logical change?
+we can use the staging area as a buffer to store a set of commits to be made together.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are helpful if im gonna try something new with the code and i dont want to update it. the main  master is a 
+clean copy of the history and the branches are the modifications not upgrades.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams do represent the hierarchy of our branches in a easily readable tree like structure.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches results in combining the features into the master, we do so in the graph because,
+the merged version is the new master having two parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+git's auto merging is good as a part of our work is done, but it will be difficult to chose b/w conflicts.
+merging manually is better in case we have to resolve the conflicts ourselves, it could be tedious when we have 
+many conflicts. Finally auto merge is good when we have no conflicts.
